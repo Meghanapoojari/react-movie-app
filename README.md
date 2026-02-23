@@ -1,16 +1,25 @@
 # React + Vite
+React Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React movie browsing application that allows users to explore movies and add them to a favorites list. Favorites are stored using localStorage, so they persist even after refreshing the page.
 
-Currently, two official plugins are available:
+ Features
+🔍 Browse movies
+❤️ Add / Remove movies from Favorites
+💾 Persistent favorites using localStorage
+🔄 Favorites remain after page refresh
+🧭 Navigation using React Router
+🎨 Clean and responsive UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚛️ Context API for global state management
+🛠️ Tech Stack
+React
+Vite
+React Router
+Context API
+CSS
+TMDB API (for movie data)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
