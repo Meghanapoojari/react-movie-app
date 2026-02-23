@@ -1,0 +1,30 @@
+body {
+  background-color: #121212;
+  color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.home {
+  padding: 20px;
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.movie-card {
+  background: #1e1e1e;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.favourite-empty {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
